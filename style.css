@@ -1,0 +1,20 @@
+@media only screen and (max-width: 768px) {
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 30px;
+    overflow: hidden;
+}
+.logo{
+    border-style: solid;
+    color: #8c161a;
+    
+}
+.name{
+    margin-left: -20%;
+}
+
+}
