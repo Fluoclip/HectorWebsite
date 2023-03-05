@@ -24,7 +24,7 @@ img{
 }
 .quoteImg{
     width: auto;
-    height:  300px;
+    height:  350px;
     background-image: url("./res/bodyguard.jpeg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -38,7 +38,7 @@ img{
   color: white;
   font-weight: bold;
   position: absolute;
-  top: 35%;
+  top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -48,6 +48,15 @@ img{
 
 }
 
+.offers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    height: 300px;
+}
+.offer1{
+    
 
+}
 
 }
