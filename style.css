@@ -20,7 +20,7 @@ img{
     
 }
 .name{
-    margin-left: -30%;
+    
 }
 .quoteImg{
     width: auto;
@@ -50,6 +50,7 @@ img{
 
 .offers{
     display: flex;
+    flex:1;
     justify-content: space-between;
     gap: 10px;
     margin-top: 5%;
