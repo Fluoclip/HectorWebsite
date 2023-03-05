@@ -55,7 +55,7 @@ img{
     gap: 10px;
     margin-top: 5%;
     height: 300px;
-    flex-wrap: wrap;
+    
     
     
 }
@@ -64,7 +64,7 @@ img{
     border-style: solid;
     flex-grow: 1;
     justify-content: center;
-
+    flex-wrap: wrap;
    
 
 }
@@ -73,7 +73,7 @@ img{
     border-style: solid; 
     flex-grow: 1;
     justify-content: center;
-    
+    flex-wrap: wrap;
     
 }
 .offer3{
@@ -81,6 +81,7 @@ img{
     border-style: solid;
     flex-grow: 1;
     justify-content: center;
+    flex-wrap: wrap;
     
 
 }
