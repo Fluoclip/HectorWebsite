@@ -1,3 +1,9 @@
+.color-primary-0 { color: #AA3939 }	
+.color-primary-1 { color: #FFAAAA }
+.color-primary-2 { color: #D46A6A }
+.color-primary-3 { color: #801515 }
+.color-primary-4 { color: #550000 }
+
 @media only screen and (max-width: 768px) {
 .header{
     display: flex;
@@ -50,4 +56,20 @@ img{
 
 
 
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.cariere{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    flex-direction: row;
+    
+}
+.inputBox{
+    font-size: 20px;
+    margin: 2%;
 }
