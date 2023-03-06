@@ -25,9 +25,7 @@ img{
    height: 20%;
     
 }
-.name{
-    
-}
+
 .quoteImg{
     width: auto;
     height:  350px;
@@ -54,7 +52,9 @@ img{
 
 }
 
-
+.inputBox{
+    font-size: 10px;
+}
 
 }
 
