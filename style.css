@@ -79,4 +79,9 @@ img{
     color: whitesmoke;
     border-radius: 10px;
     font-style: oblique;
+    margin-top: 5%;
+}
+
+.jobsTitle{
+    margin: 5%;
 }
