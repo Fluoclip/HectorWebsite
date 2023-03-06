@@ -32,6 +32,8 @@ img{
     background-image: url("./res/bodyguard.jpeg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin-left: -5%;
+    margin-right: -5%;
     filter: blur(3px);
     -webkit-filter: blur(3px);
 
