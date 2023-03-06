@@ -60,9 +60,9 @@ img{
 
 .cariere{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 5%;
-    flex-direction: row;
+    
     
 }
 .inputBox{
