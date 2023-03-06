@@ -62,6 +62,7 @@ img{
 
 .cariere{
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     margin: 5%;
     
@@ -72,4 +73,10 @@ img{
     font-size: 20px;
     margin: 2%;
     margin-left: 10%;
+}
+.button{
+    background-color: #801515;
+    color: whitesmoke;
+    border-radius: 10px;
+    font-style: oblique;
 }
