@@ -4,135 +4,74 @@
 .color-primary-3 { color: #801515 }
 .color-primary-4 { color: #550000 }
 
-input[type=checkbox]{
-
-    display: none;
-    } 
-    
-    /*HAMBURGER MENU*/
-    
-    .hamburger {
-        display: none;
-        font-size: 24px;
-        user-select: none;
-    
-    }
-
-@media only screen and (max-width: 768px) {
-.navbar{
-    display:none;
-    position: absolute;
-    background-color:teal;
-    right: 0;
-    left: 0;
-    text-align: center;
-    padding: 16px 0;
-}
-input[type=checkbox]:checked ~ .menu{
-
-    display: block;
-    
-    }
-    
-    .hamburger {
-    
-    display: block;
-    
-    }
-img{ 
-    max-width:100%;
-    max-height:100%;
-
-}
-.logo{
-    margin-top: 5%;
-   width: 20%;
-   height: 20%;
-    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.quoteImg{
-    width: auto;
-    height:  350px;
-    background-image: url("./res/bodyguard.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    margin-left: -5%;
-    margin-right: -5%;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
-
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
 }
 
-.quote{
-    
-  color: white;
-  font-weight: bold;
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-
+li {
+    list-style: none;
 }
 
-.offers{
+a {
+    text-decoration: none;
+}
+
+.header{
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.navbar {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 5%;
-    
-}
-.offer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2%;
-
-}
-
-.button{
-    color: #090909;
-    padding: 0.7em 1.7em;
-    font-size: 18px;
-    border-radius: 0.5em;
-    background: #f9f6f6;
-    border: 1px solid #e8e8e8;
-    transition: all .3s;
-    box-shadow: 6px 6px 12px #c5c5c5,
-                -6px -6px 12px #ffffff;
-
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-bottom: 5%;
-}
-.button:active{
-    color: #666;
- box-shadow: inset 4px 4px 12px #c5c5c5,
-             inset -4px -4px 12px #ffffff;
-}
-.jobsTitle{
-    margin: 10%;
-}
-.inputBox{
-    transform: translate(20px);
-}
-
-}
-.navbar{
-    display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 20px;
-    background-color:#801515;
-    color: #fff;
-
-
+    align-items: center;
+    padding: 1rem 1.5rem;
 }
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #475569;
+}
+
+.nav-link:hover{
+    color: #482ff7;
+}
+
+.nav-logo {
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: #482ff7;
+}
+
 .offers{
     display: flex;
     justify-content: space-evenly;
@@ -235,3 +174,134 @@ img{
 .jobsTitle{
     margin: 5%;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+
+
+
+    img{ 
+        max-width:100%;
+        max-height:100%;
+    
+    }
+    .logo{
+        margin-top: 5%;
+       width: 20%;
+       height: 20%;
+        
+    }
+    
+    .quoteImg{
+        width: auto;
+        height:  350px;
+        background-image: url("./res/bodyguard.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-left: -5%;
+        margin-right: -5%;
+        filter: blur(3px);
+        -webkit-filter: blur(3px);
+    
+    }
+    
+    .quote{
+        
+      color: white;
+      font-weight: bold;
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 80%;
+      padding: 20px;
+      text-align: center;
+    
+    }
+    
+    .offers{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5%;
+        
+    }
+    .offer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2%;
+        padding: 2%;
+    
+    }
+    
+    .button{
+        color: #090909;
+        padding: 0.7em 1.7em;
+        font-size: 18px;
+        border-radius: 0.5em;
+        background: #f9f6f6;
+        border: 1px solid #e8e8e8;
+        transition: all .3s;
+        box-shadow: 6px 6px 12px #c5c5c5,
+                    -6px -6px 12px #ffffff;
+    
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    .button:active{
+        color: #666;
+     box-shadow: inset 4px 4px 12px #c5c5c5,
+                 inset -4px -4px 12px #ffffff;
+    }
+    .jobsTitle{
+        margin: 10%;
+    }
+    .inputBox{
+        transform: translate(20px);
+    }
+    
+}
+    
