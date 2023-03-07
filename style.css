@@ -118,6 +118,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: 5%;
 
     border-style: solid;
@@ -129,10 +130,35 @@ img{
     
 }
 .inputBox{
-    font-size: 20px;
-    margin: 2%;
-    margin-left: 10%;
+    width: 100%;
+  max-width: 220px;
+  height: 30px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1.5px solid lightgrey;
+  outline: none;
+  margin: 2%;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  box-shadow: 0px 0px 20px -18px;
 }
+.inputBox:hover {
+    border: 2px solid lightgrey;
+    box-shadow: 0px 0px 20px -17px;
+  }
+  
+  .inputBox:active {
+    transform: scale(0.95);
+  }
+  
+  .inputBox:focus {
+    border: 2px solid grey;
+  }
+
+.fileUpload{
+    margin: 5%;
+    font-size: 15px;
+}
+
 .button{
     color: #090909;
     padding: 0.7em 1.7em;
