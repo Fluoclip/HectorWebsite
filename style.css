@@ -76,13 +76,18 @@ img{
 .cariere{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 5%;
+
+    border-style: solid;
+    border-color: #AA3939;
+    border-width: thin;
+    
+    
     
     
 }
 .inputBox{
-    
     font-size: 20px;
     margin: 2%;
     margin-left: 10%;
