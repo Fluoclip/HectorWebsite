@@ -385,24 +385,7 @@ body {
         transform: rotate(-35deg);
       }
     
-      /* ......./ food /......... */
-    
-      .food-container {
-        flex-direction: column;
-        align-items: stretch;
-      }
-    
-      .food-type:not(:last-child) {
-        margin-bottom: 3rem;
-      }
-    
-      .food-type {
-        box-shadow: 5px 5px 10px 0 #aaa;
-      }
-    
-      .img-container {
-        margin: 0;
-      }
+      
     }
     
     @media (max-width: 500px) {
@@ -414,19 +397,6 @@ body {
           font-size: 1.6rem;
       }
     
-      .testimonial-container {
-        flex-direction: column;
-        text-align: center;
-      }
-    
-      .food-menu-container img {
-        margin: auto;
-      }
-    
-      .food-menu-item {
-        flex-direction: column;
-        text-align: center;
-      }
     
       .form-container {
         width: 90%;
