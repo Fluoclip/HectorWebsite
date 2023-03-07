@@ -117,7 +117,7 @@ img{
     border-color: #AA3939;
     border-style: solid;
     border-width: thin;
-    border-radius: 30px;
+    border-radius: 10px;
     
     background: #f9f6f6;
     box-shadow: 15px 15px 30px #bebebe,
@@ -137,7 +137,7 @@ img{
     border-style: solid;
     border-color: #AA3939;
     border-width: thin;
-    border-radius: 30px;
+    border-radius: 10px;
 
     background-color: #f9f6f6;
     
