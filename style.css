@@ -54,6 +54,22 @@ img{
 
 }
 
+.offers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    border-style: solid;
+}
+.offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+
+}
+
 .inputBox{
     font-size: 10px;
 }
