@@ -112,14 +112,14 @@ img{
     justify-content: center;
     align-items: center;
     margin: 2%;
-    width: 300px;
+    
     height: 254px;
     border-color: #AA3939;
     border-style: solid;
     border-width: thin;
     border-radius: 30px;
     
-    background: #fcf7f7;
+    background: #f9f6f6;
     box-shadow: 15px 15px 30px #bebebe,
                -15px -15px 30px #ffffff;
               
@@ -139,7 +139,7 @@ img{
     border-width: thin;
     border-radius: 30px;
 
-    background-color: #fcf7f7;
+    background-color: #f9f6f6;
     
     
     
