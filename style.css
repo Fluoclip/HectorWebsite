@@ -70,13 +70,26 @@ img{
 
 }
 
-.inputBox{
-    font-size: 10px;
-}
 .button{
-    margin-top: 10%;
-}
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background:whitesmoke;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
 
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.button:active{
+    color: #666;
+ box-shadow: inset 4px 4px 12px #c5c5c5,
+             inset -4px -4px 12px #ffffff;
+}
 .jobsTitle{
     margin: 10%;
 }
@@ -121,11 +134,24 @@ img{
     margin-left: 10%;
 }
 .button{
-    background-color: #801515;
-    color: whitesmoke;
-    border-radius: 10px;
-    font-style: oblique;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background:whitesmoke;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+
     margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.button:active{
+    color: #666;
+ box-shadow: inset 4px 4px 12px #c5c5c5,
+             inset -4px -4px 12px #ffffff;
 }
 
 .jobsTitle{
