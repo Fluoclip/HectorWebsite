@@ -18,6 +18,10 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-image: url(./res/bodyguard.jpeg);
+  background-position: -500px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* ///////////..utility classes../////////// */
