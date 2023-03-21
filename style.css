@@ -110,10 +110,11 @@ body {
 .quote{
      color: rgb(0, 0, 0);
       position: relative;
-      height: 100px;
+      margin: 2%;
+      height: 250px;
       padding: 20px;
       text-align: center;
-      transform: translate(0, 150%);
+      transform: translate(0, 70%);
 }
 
 .offers{
@@ -238,7 +239,7 @@ body {
       position: relative;
       
       text-align: center;
-      transform: translate(0, 70%);
+      transform: translate(0, 50%);
     
     }
     
