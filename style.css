@@ -47,11 +47,11 @@ body {
 
 .btn-primary {
   color: #fff;
-  background: #16a083;
+  background:#801515;
 }
 
 .btn-primary:hover {
-  background: #117964;
+  background: #801515;
   transition: background 0.3s ease-in-out;
 }
 
@@ -103,7 +103,7 @@ body {
 }
 
 .menu-items a:hover {
-  color: #117964;
+  color: #801515;
   transition: color 0.3s ease-in-out;
 }
 
