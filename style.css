@@ -118,7 +118,7 @@ body {
 }
 img{
   display: block;
-  width: 15%;
+  width: 5vh;
 
 }
 
@@ -243,7 +243,7 @@ img{
    
 
   img{
-    margin-left: 90%;
+   
     object-fit: contain;
     padding: 1%;
   }
@@ -306,6 +306,7 @@ img{
     .navbar {
         opacity: 0.95;
         transform: translate(0,-10%);
+        height: 70px;
       }
     
       .navbar-container input[type="checkbox"],
