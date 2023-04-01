@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <title>Registrierung der Mitarbeiter</title>
-    <link rel="stylesheet" href="styleregis.css" />
+    <link rel="stylesheet" href="/Html Projects/CSS/styleregis.css" />
   </head>
   <body>
     <header>
@@ -17,23 +17,27 @@
         aus!
       </p>
     </header>
-    <form action="https://register-demo.freecodecamp.org">
+    <form action="https://register-demo.freecodecamp.org" method="post">
       <fieldset>
         <label for="first-name">
           Ihr Vorname:
-          <input type="text" id="first-name"
+          <input type="text" id="first-name" name="first-name"
         /></label>
         <label for="last-name">
-          Ihr Nachname: <input type="text" id="last-name"
+          Ihr Nachname: <input type="text" id="last-name" name="last-name"
         /></label>
-        <label for="street"> Strasse: <input type="text" id="street" /></label>
-        <label for="city"> Wohnort: <input type="text" id="city" /></label>
+        <label for="street">
+          Strasse: <input type="text" id="street" name="street"
+        /></label>
+        <label for="city">
+          Wohnort: <input type="text" id="city" name="city"
+        /></label>
         <label for="email">
-          Ihre E-Mail Adresse: <input type="email" id="email"
+          Ihre E-Mail Adresse: <input type="email" id="email" name="email"
         /></label>
-        <label for="Birthdate">
+        <label for="birthdate">
           Ihr Geburtsdatum:
-          <input type="date" id="Birthdate" name="Birthdate"
+          <input type="date" id="birthdate" name="birthdate"
         /></label>
       </fieldset>
       <fieldset>
@@ -42,21 +46,20 @@
           <input type="text" id="phone" name="phone" />
         </label>
         <label for="guard-id">
-          Bewacher ID: <input type="text" id="guard-id"
+          Bewacher ID: <input type="text" id="guard-id" name="guard-id"
         /></label>
-        <label for="ausbildung">
+        <label for="level-of-education">
           Ausbildung:
           <textarea
-            name="Ausbildung"
-            id="ausbildung"
+            name="level-of-education"
+            id="level-of-education"
             cols="15"
             rows="5"
             placeholder="Bspw. IHK §34i..."
           ></textarea>
         </label>
       </fieldset>
-      <input type="submit" value="Einreichen" name="submit" method ="POST" />
+      <input type="submit" value="Einreichen" name="submit" />
     </form>
-    <script src="scriptPost.js"></script>
   </body>
 </html>
