@@ -26,7 +26,7 @@
         <label for="last-name">
           Ihr Nachname: <input type="text" id="last-name"
         /></label>
-        <label for="Street"> Strasse: <input type="text" id="Street" /></label>
+        <label for="street"> Strasse: <input type="text" id="street" /></label>
         <label for="city"> Wohnort: <input type="text" id="city" /></label>
         <label for="email">
           Ihre E-Mail Adresse: <input type="email" id="email"
@@ -41,21 +41,22 @@
           >Telefon: / Mobil:
           <input type="text" id="phone" name="phone" />
         </label>
-        <label for="Guard_ID">
-          Bewacher ID: <input type="text" id="Guard_ID"
+        <label for="guard-id">
+          Bewacher ID: <input type="text" id="guard-id"
         /></label>
-        <label for="Ausbildung">
+        <label for="ausbildung">
           Ausbildung:
           <textarea
             name="Ausbildung"
-            id="Ausbildung"
+            id="ausbildung"
             cols="15"
             rows="5"
             placeholder="Bspw. IHK §34i..."
           ></textarea>
         </label>
       </fieldset>
-      <input type="submit" value="Einreichen" name="submit" />
+      <input type="submit" value="Einreichen" name="submit" method ="POST" />
     </form>
+    <script src="scriptPost.js"></script>
   </body>
 </html>
