@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Registrierung der Mitarbeiter</title>
+    <link rel="stylesheet" href="styleregis.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Anmeldeformular</h1>
+      <p>
+        Bitte füllen Sie dieses Formular mit den erforderlichen Informationen
+        aus!
+      </p>
+    </header>
+    <form action="https://register-demo.freecodecamp.org">
+      <fieldset>
+        <label for="first-name">
+          Ihr Vorname:
+          <input type="text" id="first-name"
+        /></label>
+        <label for="last-name">
+          Ihr Nachname: <input type="text" id="last-name"
+        /></label>
+        <label for="Street"> Strasse: <input type="text" id="Street" /></label>
+        <label for="city"> Wohnort: <input type="text" id="city" /></label>
+        <label for="email">
+          Ihre E-Mail Adresse: <input type="email" id="email"
+        /></label>
+        <label for="Birthdate">
+          Ihr Geburtsdatum:
+          <input type="date" id="Birthdate" name="Birthdate"
+        /></label>
+      </fieldset>
+      <fieldset>
+        <label for="phone"
+          >Telefon: / Mobil:
+          <input type="text" id="phone" name="phone" />
+        </label>
+        <label for="Guard_ID">
+          Bewacher ID: <input type="text" id="Guard_ID"
+        /></label>
+        <label for="Ausbildung">
+          Ausbildung:
+          <textarea
+            name="Ausbildung"
+            id="Ausbildung"
+            cols="15"
+            rows="5"
+            placeholder="Bspw. IHK §34i..."
+          ></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Einreichen" name="submit" />
+    </form>
+  </body>
+</html>
