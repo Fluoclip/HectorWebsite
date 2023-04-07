@@ -17,14 +17,14 @@
         aus!
       </p>
     </header>
-    <form class="form" method="post">
+    <form class="form" >
       <fieldset>
         <label for="first-name">
           Ihr Vorname:
-          <input type="text" id="first-name" name="first-name"
+          <input type="text" id="first-name" name="firstName"
         /></label>
         <label for="last-name">
-          Ihr Nachname: <input type="text" id="last-name" name="last-name"
+          Ihr Nachname: <input type="text" id="last-name" name="lastName"
         /></label>
         <label for="street">
           Strasse: <input type="text" id="street" name="street"
@@ -43,15 +43,15 @@
       <fieldset>
         <label for="phone"
           >Telefon: / Mobil:
-          <input type="text" id="phone" name="phone" />
+          <input type="text" id="phone" name="telefon" />
         </label>
         <label for="guard-id">
-          Bewacher ID: <input type="text" id="guard-id" name="guard-id"
+          Bewacher ID: <input type="text" id="guard-id" name="bewacherId"
         /></label>
         <label for="level-of-education">
           Ausbildung:
           <textarea
-            name="level-of-education"
+            name="lvlOfEducation"
             id="level-of-education"
             cols="15"
             rows="5"
@@ -61,5 +61,6 @@
       </fieldset>
       <input type="submit" value="Einreichen" name="submit" />
     </form>
+    <script src="scriptPost.js"></script>
   </body>
 </html>
