@@ -126,11 +126,13 @@ input:first-of-type {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   body {
     font-size: 0.5rem;
+    margin-top: -15%;
   }
   div {
+    margin-top: 0;
     height: 95%;
     width: 80%;
   }
@@ -149,5 +151,6 @@ input:first-of-type {
 
   img {
     height: 400px;
+    width: 300px;
   }
 }
