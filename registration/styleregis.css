@@ -110,7 +110,7 @@ textarea::placeholder {
   }
 
   body {
-    height: 100vh;
+    height: 130vh;
   }
   header:last-of-type {
     font-size: small;
