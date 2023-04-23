@@ -65,7 +65,7 @@ input:first-of-type {
   margin-bottom: 0.1rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 770px) {
   body {
     font-size: 0.7rem;
   }
@@ -86,10 +86,10 @@ input:first-of-type {
   }
 
   img {
-    height: 500px;
+    height: 650px;
   }
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1080px) {
   body {
     font-size: 0.3rem;
   }
@@ -121,7 +121,7 @@ input:first-of-type {
   img {
     margin: auto;
     opacity: 0.9;
-    width: 380px;
+    width: 500px;
     display: block;
   }
 }
@@ -151,6 +151,7 @@ input:first-of-type {
 
   img {
     height: 400px;
-    width: 300px;
+    width: 320px;
+    display: block;
   }
 }
