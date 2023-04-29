@@ -125,7 +125,7 @@ img{
 
 .quote{
      color: rgb(0, 0, 0);
-     font-size: 30px;
+     font-size: 2rem;
       position: relative;
       margin: 2%;
       height: 250px;
@@ -256,7 +256,7 @@ img{
         
       color: rgb(0, 0, 0);
       position: relative;
-      font-size: 15px;
+      font-size: 1.7rem;
       text-align: center;
       transform: translate(0, 50%);
     
